@@ -1,0 +1,29 @@
+{
+  "app": {
+    "name": "Proyect Name",
+    "cluster": true,
+    "baseUrl": {
+      "default": "/"
+    },
+    "port": 8000,
+    "portS": 8443,
+    "lang": [
+      "es",
+      "en"
+    ]
+  },
+  "webpack": {
+    "minimize-css": true,
+    "uglify-js": true,
+    "public-path": "./public/",
+    "entryPoint": "./client/index.js",
+    "layout": {
+      "fileName": "index.html",
+      "template": "./client/index.html"
+    },
+    "bundles": {
+      "js": "bundle.[name].[hash].js",
+      "css": "bundle.[name].[hash].css"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import '../../components/icons/style.css';
+
+.services {
+  &-page {
+    display: flex;
+    text-align: center;
+    padding-top: 12%;
+    width: 872px;
+    margin: 0 auto;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+}

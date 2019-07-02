@@ -1,0 +1,17 @@
+.icon {
+  
+  &-fa{
+    width: 24px ;
+    height:24px;
+  }
+
+  &-menu {
+    width: 16px ;
+    height:16px;
+  }
+
+  &-user {
+    width: 16px ;
+    height:16px;
+  }
+}
